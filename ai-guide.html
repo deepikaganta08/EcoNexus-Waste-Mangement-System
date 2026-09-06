@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>AI Waste Guide | EcoNexus</title><link rel="stylesheet" href="assets/style.css"></head><body>
+<header class="topbar"><a class="logo" href="index.html"><span class="logo-mark">E</span>EcoNexus</a><nav class="main-nav" aria-label="Primary navigation">
+<a href="index.html">🏠 <span>Home</span></a>
+<a href="disposal.html">🗑️ <span>Disposal</span></a>
+<a href="sanitization.html">🧼 <span>Sanitization</span></a>
+<a href="ai-guide.html">🤖 <span>AI Waste Guide</span></a>
+<a href="t2t.html">♻️ <span>Waste to Value</span></a>
+<a class="admin-link" href="admin.html">🌳 <span>Admin</span></a>
+</nav><div class="header-tools"><a class="back-btn" href="index.html">← <span data-i18n="back">Back</span></a><select class="language-select" aria-label="Language"><option value="en">English</option><option value="te">తెలుగు</option><option value="hi">हिन्दी</option><option value="ta">மிழ்n</option></select></div></header>
+<main class="dark"><div class="container page-head"><div class="green-badge page-badge">🌳 MAKE YOUR CITY CLEANER</div><p class="page-tagline">Report, identify, reuse, and protect.</p><div class="eyebrow" style="color:#baf36a" data-i18n="aiLabel">AI WASTE GUIDE</div><h1 data-i18n="aiPageTitle">Snap it. <span>Understand it.</span></h1><p class="lead" data-i18n="aiPageText">Upload a waste photo to receive an AI-assisted classification and segregation recommendation.</p></div><div class="container ai-layout"><div class="ai-card"><div class="ai-upload">📷<br><b data-i18n="chooseWastePhoto">Choose a waste photo</b><input id="aiFile" type="file" accept="image/*" onchange="preview(this,'aiPreview')"><img id="aiPreview" class="preview"></div><button class="btn lime full" onclick="analyzeWaste()" data-i18n="analyzeWaste">Analyze waste</button></div><div id="result" class="result"><div style="text-align:center;margin-top:80px"><div style="font-size:46px">✦</div><h3 data-i18n="aiEmptyTitle">Your result will appear here</h3><p data-i18n="aiEmptyText">Choose a photo to start.</p></div></div></div></main>
+<footer><b>EcoNexus</b><span data-i18n="footer">SIH 2026 • Clean & Green Technology</span></footer><div id="toast" class="toast"></div><script src="assets/app.js"></script></body></html>
